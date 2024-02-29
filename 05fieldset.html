@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Choose your favorite monster</legend>
+
+            <input type="radio" id="kraken" name="monster" value="K" checked />
+            <label for="kraken">Kraken</label><br />
+
+            <input type="radio" id="sasquatch" name="monster" value="S" />
+            <label for="sasquatch">Sasquatch</label><br />
+
+            <input type="radio" id="mothman" name="monster" value="M" />
+            <label for="mothman">Mothman</label><br />
+
+            <input type="radio" id="shrek" name="monster" value="SH" />
+            <label for="shrek">Shrek</label>
+        </fieldset>
+    </form>
+
+<fieldset>
+    <legend>Choose your monster's features</legend>
+
+    <div>
+        <input type="checkbox" id="swamp" name="swamp" checked />
+        <label for="swamp">Swamp</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="horn" name="horn" />
+        <label for="horn">Horns</label>
+    </div>
+</fieldset>
+
+
+<form action="" method="get" class="form-example">
+    <div>
+        <label for="name">Enta yo name:</label>
+        <input type="text" name="name" id="name" required />
+    </div>
+    <div class="form-example">
+        <label for="email">Enta yo email</label>
+        <input type="email" name="email" id="email" required />
+    </div>
+    <div class="form-example">
+        <input type="submit" value="SUBSCRIBE!!!" />
+    </div>
+</form>
+
+<label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select">
+    <option value="">--Choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+    <option value="chinchilla">Chinchilla</option>
+    <option value="rat">Rat</option>
+</select>
+</body>
+</html>

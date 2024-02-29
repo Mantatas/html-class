@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <caption>Preceding text</caption>
+    <ol type="I">
+        <li>List item 1</li>
+            <ol type="a">
+                <li>Nested item 1.1</li>
+                <li>Nested item 1.2</li>
+            </ol>
+        <li>List item 2</li>
+            <ol>
+                <li>Nested item 2.1</li>
+                <li>Nested item 2.2</li>
+                <ul type="circle">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2</li>
+                    <ul>
+                        <li>Nested item 2.2.2.1</li>
+                        <li>Nested item 2.2.2.2</li>
+                    </ul>
+                    <li>Nested item 2.2.3</li>
+                </ul>
+                <li>Nested item 2.3</li>
+            </ol>
+        <li>List item 3</li>
+        <ul type="disc">
+            <li>Nested item 3.1</li>
+            <li>Nested item 3.2</li>
+            <li>Nested item 3.3</li>
+        </ul>
+    </ol>
+<br>
+    <form action="" method="get" class="info">
+        <div class="info">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required
+            placeholder="example@email.com" /> 
+        </div>
+
+        <div class="info">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required />
+        </div>
+
+        <div class="info">
+            <label for="password">Confirm password:</label>
+            <input type="password" name="password" id="password" required />
+        </div>
+
+        <div class="info">
+            <label for="picture">Upload picture:</label>
+            <input type="file" name="picture" id="picture" />
+        </div>
+
+        <field>
+            Gender:
+            <input type="radio" id="female" name="gender" value="F" />
+            <label for="female">Female</label>
+
+            <input type="radio" id="male" name="gender" value="M" />
+            <label for="male">Male</label><br />
+        </field>
+
+        <field>
+            <label for="choose-country">Country:</label>
+            <select name="pets" id="pet-select">
+                <option value="">None</option>
+                <option value="lithuania">Lithuania</option>
+                <option value="latvia">Latvia</option>
+                <option value="estonia">Estonia</option>
+                <option value="poland">Poland</option>
+            </select>
+        </field><br />
+
+        <field>
+            Hobby:
+            <input type="checkbox" id="cricket" name="cricket" value="C" />
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" id="football" name="football" value="F" />
+            <label for="football">Football</label>
+
+        <div class="info">
+            <label for="address">Address: </label>
+            <textarea id="address" name="address" placeholder="write your address here"></textarea>
+        </div>
+
+        <div class="info">
+            <input type="submit" value="Submit">
+        </div>
+        </field>
+    </form>
+<br>
+    <field>
+        <form action="" method="get" class="info">
+            <div class="info">
+                <label for="name">Vardas</label>
+                <input type="text" name="text" id="text" required />
+                <label for="name">Pavarde </label>
+                <input type="text" name="test" id="test" required />
+            </div>
+            <div class="info">
+                <label for="telefonas">Telefonas</label>
+                <input type="number" name="telefonas" id="telefonas" required
+                placeholder="Pvz: 37066105555" />
+                <label for="imone">Imones pavadinimas</label>
+                <input type="text" name="imone" id="imone" required />
+            </div>
+        <label for="miestas">Miestas</label>
+        <select name="miestas" id="miestas-select">
+        <option value="">-- Pasirinkite --</option>
+        <option value="Kaunas">Kaunas</option>
+        <option value="Vilnius">Vilnius</option>
+        <option value="Raseiniai">Raseiniai</option>
+        <option value="Siauliai">Siauliai</option>
+    </select>
+    </field>
+</body>
+</html>
